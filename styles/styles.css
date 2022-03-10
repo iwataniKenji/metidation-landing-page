@@ -11,7 +11,6 @@ body {
 
   max-width: 120rem;
   margin: 0 auto;
-  padding: 1rem 4.8rem;
 
   overflow-x: hidden;
 }
@@ -27,6 +26,7 @@ NAV SECTION
   align-items: center;
   font-size: 1.6rem;
   height: 10rem;
+  padding: 1rem 4.8rem;
   position: relative;
 }
 
@@ -106,6 +106,7 @@ main {
   display: flex;
   flex-direction: row;
   margin-top: 5rem;
+  padding: 1rem 4.8rem;
 }
 
 .content {
@@ -136,7 +137,7 @@ main {
 
 img {
   width: 60rem;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 img:hover,
@@ -154,17 +155,23 @@ form {
   width: 42rem;
 }
 
-form [type="submit"] {
+.cta-btn {
   height: 50px;
   width: 50%;
   background-color: rgb(132, 14, 221);
   color: #fff;
+
+  font-size: 1.6rem;
   font-weight: 700;
+  letter-spacing: 0.75px;
+
+  transition: 0.3s all;
 }
 
-form [type="submit"]:hover,
-form [type="submit"]:active {
+.cta-btn:hover,
+.cta-btn:active {
   cursor: pointer;
+  background: rgb(95, 9, 161);
 }
 
 input {

@@ -40,6 +40,10 @@ BELOW 960px (MOBILE NAVIGATION)
     font-size: 56.25%;
   }
 
+  img {
+    width: 42.5rem;
+  }
+
   .mobile-nav-btn {
     display: block;
   }
@@ -63,7 +67,7 @@ BELOW 960px (MOBILE NAVIGATION)
     visibility: hidden;
   }
 
-  .nav-open .nav-container{
+  .nav-open .nav-container {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
@@ -81,9 +85,89 @@ BELOW 960px (MOBILE NAVIGATION)
   .nav-list {
     flex-direction: column;
     gap: 4.8rem;
+    margin-right: 16px;
   }
 
   .nav-link {
     font-size: 3rem;
+  }
+}
+
+/************************
+BELOW 856px
+************************/
+
+@media (max-width: 52.5em) {
+  .content {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+
+  aside {
+    text-align: center;
+  }
+
+  form {
+    margin: 0 auto;
+  }
+
+  .cta-btn {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+
+  img {
+    padding-left: 2.8rem;
+    margin: 6.4rem auto 2.4rem;
+  }
+}
+
+/************************
+BELOW 556px
+************************/
+
+@media (max-width: 34.75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .content {
+    margin: 0 auto;
+  }
+
+  img {
+    padding-left: 2.2rem;
+    margin: 6.4rem auto 2.4rem;
+  }
+}
+
+/************************
+BELOW 475px
+************************/
+
+@media (max-width: 29.7em) {
+  html {
+    font-size: 42, 5%;
+  }
+
+  main {
+    padding: 0 2.2rem;
+    margin: 2.2rem auto;
+  }
+
+  img {
+    width: 37.5rem;
+    margin: 6.4rem 0rem 2.4rem 2.4rem;
+  }
+}
+
+/************************
+BELOW 425px
+************************/
+
+@media (max-width: 26.5em) {
+  img {
+    display: none;
   }
 }
