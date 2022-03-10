@@ -4,11 +4,12 @@
 
 <p align="center">
     <a href="#about">📙 About</a>
+    <a href="#preview">🖼️ Git Preview</a>
     <a href="#features">💡 Features</a>
     <a href="#technologies">💻 Technologies</a>
 </p>
 
-<h4 align="center">
+<h4 align="center">'
    ✔️ Meditation Landing Page project finished ✔️
 </h4>
 
@@ -18,7 +19,15 @@
 <p>Made by <a href="https://www.linkedin.com/in/kleverson-kenji-iwatani/">Kenji Iwatani</a></p>
 
 <section align="center">
-    <img alt="Meditation Landing Page landing page overview" src="#"/>
+    <img alt="Landing Page overview" src="/images/page-preview-pic.png"/>
+</section>
+
+---
+
+<H2 id="preview">🖼️ Gif Preview</H2>
+
+<section align="center">
+    <img alt="Landing Page overview" src="/images/page-preview.gif"/>
 </section>
 
 ---
