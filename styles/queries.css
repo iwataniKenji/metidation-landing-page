@@ -46,6 +46,7 @@ BELOW 960px (MOBILE NAVIGATION)
 
   .mobile-nav-btn {
     display: block;
+    z-index: 10;
   }
 
   .nav-container {
@@ -86,6 +87,7 @@ BELOW 960px (MOBILE NAVIGATION)
     flex-direction: column;
     gap: 4.8rem;
     margin-right: 16px;
+    padding-right: 3rem;
   }
 
   .nav-link {
@@ -130,6 +132,11 @@ BELOW 556px
 @media (max-width: 34.75em) {
   html {
     font-size: 50%;
+  }
+
+  .nav-container {
+    align-items: start;
+    padding-top: 15rem;
   }
 
   .content {
