@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link href="/styles/styles.css" rel="stylesheet" />
+    <link href="/styles/queries.css" rel="stylesheet" />
+
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="title">
+        <h1 class="nav-text">Home</h1>
+        <h1 class="nav-text purple-text">Meditation</h1>
+      </div>
+
+      <div class="nav-container">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">Services</a></li>
+          <li><a class="nav-link" href="#">About</a></li>
+          <li><a class="nav-link" href="#">Contact</a></li>
+          <li><a href="#" class="nav-link subscribe-btn">Create Account</a></li>
+        </ul>
+      </div>
+
+      <button class="mobile-nav-btn">
+        <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <div class="content">
+        <aside>
+          <h2 class="content-title">Subscribe now</h2>
+          <h2 class="content-title purple-text">to the newsletter</h2>
+
+          <p class="content-text">
+            The habit that will increase your productivity and reduce your
+            stress. Subscribe to receive our exclusive meditation methods.
+          </p>
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="E-mail" />
+            <input type="submit" value="Start Meditating →" />
+          </form>
+        </aside>
+
+        <article>
+          <img
+            src="./images/77d0a7c454e658833800528e748edbe9.png"
+            alt="Woman meditating"
+          />
+        </article>
+      </div>
+    </main>
+  </body>
+</html>

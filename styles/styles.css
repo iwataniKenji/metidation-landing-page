@@ -1,0 +1,177 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #343434;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 500;
+
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1rem 4.8rem;
+
+  overflow-x: hidden;
+}
+
+/************************
+NAV SECTION
+************************/
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  height: 10rem;
+  position: relative;
+}
+
+.title {
+  flex-direction: column;
+  line-height: 1rem;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 5.5rem;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:active {
+  color: rgb(132, 14, 221);
+}
+
+.subscribe-btn {
+  border: 2px solid rgb(132, 14, 221);
+  padding: 1rem;
+  border-radius: 1.5rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:active {
+  background-color: rgb(132, 14, 221);
+  color: #fff;
+}
+
+.nav-text {
+  font-weight: 400;
+}
+
+/************************
+MOBILE NAVIGATION
+************************/
+
+.mobile-nav-btn {
+  border: none;
+  border-radius: 1.5rem;
+  background: rgb(132, 14, 221);
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+  color: #333;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+
+/************************
+CONTENT SECTION
+************************/
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+  margin: 2.1rem 0 4.2rem;
+}
+
+.content-title {
+  font-size: 5.6rem;
+  line-height: 1rem;
+  font-weight: 500;
+}
+
+.purple-text {
+  color: rgb(132, 14, 221);
+}
+
+.content-text {
+  line-height: 2rem;
+  max-width: 50rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  letter-spacing: 0.75px;
+  line-height: 22px;
+}
+
+img {
+  width: 60rem;
+  transition: all 0.3s;
+}
+
+img:hover,
+img:active {
+  transform: scale(1.05);
+}
+
+/************************
+FORM SECTION
+************************/
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 42rem;
+}
+
+form [type="submit"] {
+  height: 50px;
+  width: 50%;
+  background-color: rgb(132, 14, 221);
+  color: #fff;
+  font-weight: 700;
+}
+
+form [type="submit"]:hover,
+form [type="submit"]:active {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 2rem;
+  height: 2rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.5rem;
+}
