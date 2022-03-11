@@ -18,6 +18,10 @@
 <p>Landing page using completely responsive design with media queries and implementation of mobile navigation. Project used to practice html and css concepts</p>
 <p>Made by <a href="https://www.linkedin.com/in/kleverson-kenji-iwatani/">Kenji Iwatani</a></p>
 
+<p>
+    <h3><a href="https://meditation-kenji.netlify.app/">Check website &rarr;</a></h3>
+</p>
+
 <section align="center">
     <img alt="Landing Page overview" src="/images/page-preview-pic.png"/>
 </section>
